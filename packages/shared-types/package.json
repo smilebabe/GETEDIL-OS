@@ -1,0 +1,199 @@
+// packages/shared-types/package.json
+{
+  "name": "@getedil/shared-types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types for GETEDIL ecosystem with tree-shaking support",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./p0": {
+      "import": "./dist/p0_onboarding.mjs",
+      "require": "./dist/p0_onboarding.js",
+      "types": "./dist/p0_onboarding.d.ts"
+    },
+    "./p1": {
+      "import": "./dist/p1_consultancy.mjs",
+      "require": "./dist/p1_consultancy.js",
+      "types": "./dist/p1_consultancy.d.ts"
+    },
+    "./p2": {
+      "import": "./dist/p2_home.mjs",
+      "require": "./dist/p2_home.js",
+      "types": "./dist/p2_home.d.ts"
+    },
+    "./p3": {
+      "import": "./dist/p3_verification.mjs",
+      "require": "./dist/p3_verification.js",
+      "types": "./dist/p3_verification.d.ts"
+    },
+    "./p4": {
+      "import": "./dist/p4_jobs.mjs",
+      "require": "./dist/p4_jobs.js",
+      "types": "./dist/p4_jobs.d.ts"
+    },
+    "./p5": {
+      "import": "./dist/p5_education.mjs",
+      "require": "./dist/p5_education.js",
+      "types": "./dist/p5_education.d.ts"
+    },
+    "./p6": {
+      "import": "./dist/p6_payments.mjs",
+      "require": "./dist/p6_payments.js",
+      "types": "./dist/p6_payments.d.ts"
+    },
+    "./p7": {
+      "import": "./dist/p7_social.mjs",
+      "require": "./dist/p7_social.js",
+      "types": "./dist/p7_social.d.ts"
+    },
+    "./p8": {
+      "import": "./dist/p8_creator.mjs",
+      "require": "./dist/p8_creator.js",
+      "types": "./dist/p8_creator.d.ts"
+    },
+    "./p9": {
+      "import": "./dist/p9_trading.mjs",
+      "require": "./dist/p9_trading.js",
+      "types": "./dist/p9_trading.d.ts"
+    },
+    "./p10": {
+      "import": "./dist/p10_diaspora.mjs",
+      "require": "./dist/p10_diaspora.js",
+      "types": "./dist/p10_diaspora.d.ts"
+    },
+    "./p11": {
+      "import": "./dist/p11_tenders.mjs",
+      "require": "./dist/p11_tenders.js",
+      "types": "./dist/p11_tenders.d.ts"
+    },
+    "./p12": {
+      "import": "./dist/p12_legal.mjs",
+      "require": "./dist/p12_legal.js",
+      "types": "./dist/p12_legal.d.ts"
+    },
+    "./p13": {
+      "import": "./dist/p13_delivery.mjs",
+      "require": "./dist/p13_delivery.js",
+      "types": "./dist/p13_delivery.d.ts"
+    },
+    "./p14": {
+      "import": "./dist/p14_jobs_premium.mjs",
+      "require": "./dist/p14_jobs_premium.js",
+      "types": "./dist/p14_jobs_premium.d.ts"
+    },
+    "./p15": {
+      "import": "./dist/p15_shopping.mjs",
+      "require": "./dist/p15_shopping.js",
+      "types": "./dist/p15_shopping.d.ts"
+    },
+    "./p16": {
+      "import": "./dist/p16_selling.mjs",
+      "require": "./dist/p16_selling.js",
+      "types": "./dist/p16_selling.d.ts"
+    },
+    "./p17": {
+      "import": "./dist/p17_payments_premium.mjs",
+      "require": "./dist/p17_payments_premium.js",
+      "types": "./dist/p17_payments_premium.d.ts"
+    },
+    "./p18": {
+      "import": "./dist/p18_social_premium.mjs",
+      "require": "./dist/p18_social_premium.js",
+      "types": "./dist/p18_social_premium.d.ts"
+    },
+    "./p19": {
+      "import": "./dist/p19_profile.mjs",
+      "require": "./dist/p19_profile.js",
+      "types": "./dist/p19_profile.d.ts"
+    },
+    "./p20": {
+      "import": "./dist/p20_admin.mjs",
+      "require": "./dist/p20_admin.js",
+      "types": "./dist/p20_admin.d.ts"
+    },
+    "./p21": {
+      "import": "./dist/p21_api.mjs",
+      "require": "./dist/p21_api.js",
+      "types": "./dist/p21_api.d.ts"
+    },
+    "./p22": {
+      "import": "./dist/p22_localization.mjs",
+      "require": "./dist/p22_localization.js",
+      "types": "./dist/p22_localization.d.ts"
+    },
+    "./p23": {
+      "import": "./dist/p23_plans.mjs",
+      "require": "./dist/p23_plans.js",
+      "types": "./dist/p23_plans.d.ts"
+    },
+    "./p24": {
+      "import": "./dist/p24_referral.mjs",
+      "require": "./dist/p24_referral.js",
+      "types": "./dist/p24_referral.d.ts"
+    },
+    "./p25": {
+      "import": "./dist/p25_notifications.mjs",
+      "require": "./dist/p25_notifications.js",
+      "types": "./dist/p25_notifications.d.ts"
+    },
+    "./p26": {
+      "import": "./dist/p26_analytics.mjs",
+      "require": "./dist/p26_analytics.js",
+      "types": "./dist/p26_analytics.d.ts"
+    },
+    "./p27": {
+      "import": "./dist/p27_automation.mjs",
+      "require": "./dist/p27_automation.js",
+      "types": "./dist/p27_automation.d.ts"
+    },
+    "./gete": {
+      "import": "./dist/gete.mjs",
+      "require": "./dist/gete.js",
+      "types": "./dist/gete.d.ts"
+    },
+    "./events": {
+      "import": "./dist/events.mjs",
+      "require": "./dist/events.js",
+      "types": "./dist/events.d.ts"
+    },
+    "./utils": {
+      "import": "./dist/utils.mjs",
+      "require": "./dist/utils.js",
+      "types": "./dist/utils.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "getedil",
+    "types",
+    "typescript",
+    "tree-shaking",
+    "pillars"
+  ],
+  "author": "GETEDIL Team",
+  "license": "MIT"
+}
